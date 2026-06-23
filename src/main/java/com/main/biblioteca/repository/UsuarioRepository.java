@@ -4,16 +4,10 @@
  */
 package com.main.biblioteca.repository;
 
-import com.main.biblioteca.model.LivroDTO;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
 /**
  *
  * @author Aluno
  */
-@Repository
-public interface LivroRepository extends JpaRepository<LivroDTO, Integer>{
-    
+public interface UsuarioRepository {
     
 }

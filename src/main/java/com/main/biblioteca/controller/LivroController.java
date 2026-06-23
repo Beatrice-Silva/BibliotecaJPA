@@ -4,10 +4,28 @@
  */
 package com.main.biblioteca.controller;
 
+import ch.qos.logback.core.model.Model;
+import com.main.biblioteca.repository.LivroRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
 /**
  *
  * @author Aluno
  */
+@Controller
 public class LivroController {
+    
+    @Autowired
+    
+    LivroRepository  repo;
+    
+    @GetMapping("/")
+    public String metodo (Model model){
+        
+        List<
+    }
+    
     
 }

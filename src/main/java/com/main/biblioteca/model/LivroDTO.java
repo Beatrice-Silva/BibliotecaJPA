@@ -18,7 +18,6 @@ import jakarta.persistence.Table;
  */
 
 @Entity
-
 @Table(name = "livro")
 public class LivroDTO {
     
@@ -31,5 +30,31 @@ public class LivroDTO {
     @ManyToOne
     @JoinColumn(name = "autor", referencedColumnName = "id", nullable = false)
     private AutorDTO autor;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public AutorDTO getAutor() {
+        return autor;
+    }
+
+    public void setAutor(AutorDTO autor) {
+        this.autor = autor;
+    }
+    
+    
     
 }
