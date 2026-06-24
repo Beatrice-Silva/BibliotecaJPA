@@ -4,22 +4,15 @@
  */
 package com.main.biblioteca.controller;
 
-import com.main.biblioteca.repository.UsuarioRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  *
  * @author Aluno
  */
 @Controller
-public class AuthController {
+public class EmprestimoController {
+ 
     
-    @Autowired 
-    UsuarioRepository repository;
-    //Teste 
-    @GetMapping("/")
-    public home
     
 }

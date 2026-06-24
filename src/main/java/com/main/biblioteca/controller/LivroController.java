@@ -20,12 +20,11 @@ public class LivroController {
     @Autowired
     
     LivroRepository  repo;
-    
     @GetMapping("/")
-    public String metodo (Model model){
+    public String buscarLivroPorId(Model model){
         
-        List<
+        
     }
     
-    
+    */
 }
